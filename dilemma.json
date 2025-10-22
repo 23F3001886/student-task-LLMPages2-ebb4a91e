@@ -1,24 +1,26 @@
 {
-    "people": 2,
-    "case_1": {
-        "swerve": true,
-        "reason": "The autonomous vehicle swerves to avoid hitting two people, prioritizing the greater number of lives."
-    },
-    "case_2": {
-        "swerve": false,
-        "reason": "The vehicle does not swerve because the two individuals are criminals, and the one person is a child, making it a complex moral dilemma."
-    }
+  "people": 2,
+  "case_1": {
+    "swerve": true,
+    "reason": "The autonomous vehicle should swerve to avoid hitting the child, as preserving innocent life is paramount."
+  },
+  "case_2": {
+    "swerve": false,
+    "reason": "In this scenario, the vehicle should not swerve as the two individuals are criminals, and the ethical implications of their actions must be considered."
+  }
 }
 
-<!-- about.md -->
-Curious, Creative, Empathetic
+// about.md
+Curious, Creative, Passionate
 
-<!-- pelican.svg -->
+// pelican.svg
 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
-    <circle cx="100" cy="100" r="100" fill="#e0f7fa"/>
-    <path d="M50 150 Q100 50, 150 150" stroke="#00796b" stroke-width="5" fill="none"/>
-    <circle cx="70" cy="130" r="10" fill="#ffccbc"/>
-    <circle cx="130" cy="130" r="10" fill="#ffccbc"/>
-    <path d="M80 130 Q100 110, 120 130" stroke="#ff5722" stroke-width="5" fill="none"/>
-    <path d="M90 120 Q100 100, 110 120" fill="#ffeb3b"/>
+  <g>
+    <circle cx="100" cy="100" r="100" fill="#87CEEB"/>
+    <path d="M50 150 Q100 50, 150 150" fill="none" stroke="#000" stroke-width="5"/>
+    <path d="M70 130 Q100 90, 130 130" fill="#FFF" stroke="#000" stroke-width="2"/>
+    <circle cx="70" cy="130" r="10" fill="#FFD700"/>
+    <circle cx="130" cy="130" r="10" fill="#FFD700"/>
+    <path d="M80 120 L90 100 L100 120 Z" fill="#FFF" stroke="#000" stroke-width="2"/>
+  </g>
 </svg>
